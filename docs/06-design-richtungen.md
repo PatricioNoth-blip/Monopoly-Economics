@@ -1,100 +1,130 @@
-# 06 – Design-Richtungen (Entwurf)
+# 06 – Design-System „Black Edition“
 
-> Ergänzt das UI-Konzept ([`05-ui-konzept.md`](05-ui-konzept.md)) um Aussehen und
-> Bewegung. Es gibt einen **klickbaren Prototyp** mit allen drei Richtungen:
-> [Design-Richtungen auf claude.ai](https://claude.ai/artifact/AAuTVJyJfbXu5EVuvEZaSk)
-> (privat, nur für den Besitzer sichtbar, solange er nicht geteilt wird).
+> **Prototyp:** [Tischbörse Black Edition](https://claude.ai/artifact/QMDFSKLeRP8TGyWtcovcgB)
+> (privat, bis du ihn teilst). Eine Kopie liegt in
+> [`design/prototyp-black-edition.html`](../design/prototyp-black-edition.html) und
+> lässt sich direkt im Browser öffnen.
+> Auf dem iPad startet er in der Tischansicht, auf dem Handy in der Spieler-App.
+> Direkt erreichbar über `#tisch` bzw. `#handy`.
 >
-> Der Prototyp nutzt das **klassische deutsche Brett (40 Felder)** und Beispielzahlen
-> als Platzhalter. Die echte App verwendet die Daten der Mega Black Edition (G-01).
+> Die drei früheren Richtungen (A Spielbrett, B Karten, C Börsenparkett,
+> [alter Entwurf](https://claude.ai/artifact/AAuTVJyJfbXu5EVuvEZaSk)) sind damit
+> **ersetzt**.
 
 ---
 
-## Richtung A – Das Brett als Bühne
+## 1. Idee
 
-Der Bereich **Brett** zeigt das Spielbrett als Ring. Jedes Feld zeigt die
-Farbgruppe, den Besitzer (Spieler-Kürzel oder Firmen-Badge) und die Gebäude.
+**Schwarz, Silber, Licht.** Die App ist die digitale Fortsetzung des Spielplans der
+Mega Black Edition: schwarz, mit Silberfolie, mit Farbstreifen.
 
-| Effekt | Bedeutung |
+| Prinzip | Bedeutung |
 |---|---|
-| Feld antippen → es hebt sich an, Details öffnen sich | „Was ist hier los?“ in einem Tap |
-| Firma antippen → ihre Straßen leuchten in Firmenfarbe, der Rest wird abgedunkelt | Konzerne auf einen Blick |
-| Jede Mietzahlung pulsiert live auf dem Feld (Ring + „+3.800 M“) | Der ganze Tisch sieht, wo gerade Geld fließt |
-| Im Inneren des Bretts: Quartal, Konjunktur, Firmen, Live-Feed | Die Wirtschaftslage in der Mitte des Spiels |
+| **Das Brett ist ein Objekt im Raum** | Die Tischansicht zeigt den Spielplan als schwarze 3D-Platte mit Kante, Gebäuden und Hochhäusern, so wie er auf dem Tisch liegt |
+| **Farbe ist Licht** | Farbgruppen erscheinen als leuchtende Streifen, Firmen als Lichtakzente (Hochhausspitze, Punkt, Rahmen). Flächen sind nie bunt |
+| **Silber für Wert** | Kontostand, große Zahlen, Spielfiguren und Häuser sind silbern, wie die Figuren der Box |
+| **Details auf Abruf** | Aus der Distanz ist alles ruhig. Namen und Mieten werden lesbar, sobald die Kamera auf ein Feld fliegt oder man etwas antippt |
+| **Eine Hauptaktion pro Bildschirm** | Viel Schwarzraum, wenige Elemente, klare Hierarchie |
 
-- **iPad:** Brett links, Detailbereich rechts. Ideal für die Bank und später die
-  Tischansicht.
-- **Handy:** kompaktes Brett mit Kürzeln statt Namen, Details im Bottom Sheet.
-- **Stärke:** sofort vertraut; App und Brett verschmelzen.
-- **Schwäche:** auf dem Handy klein. Mit den 52 Feldern der Mega-Edition werden
-  die Felder noch schmaler (≈ 26 px), deshalb braucht das Handy eine
-  Zoom-Geste oder eine Seitenansicht.
+## 2. Farben
 
-## Richtung B – Karten & Urkunden
-
-Aktien erscheinen als **Aktienurkunden** mit Guilloche-Muster, Straßen als
-**Besitzrechtkarten**. Man wischt durch die Karten; Antippen dreht eine Karte in 3D
-um.
-
-- **Rückseite einer Urkunde:** wem die Firma gehört (Balken), letzte Dividende,
-  „5 Aktien kaufen“ aus der Reserve. Nach dem Kauf erscheint ein Stempel
-  „+5 gekauft“.
-- **Rückseite einer Besitzrechtkarte:** Grundbuch-Info und „Firma gründen“, sobald
-  die Farbgruppe vollständig ist.
-- **Stärke:** haptisch, mit Sammelgefühl; Besitz wird greifbar.
-- **Schwäche:** Bei vielen Positionen fehlt der Überblick, deshalb steht eine
-  kompakte Liste darunter.
-
-## Richtung C – Börsenparkett
-
-Ein dunkles, klares Börsen-Layout:
-
-| Effekt | Bedeutung |
-|---|---|
-| Laufband mit allen Kursen | Börsengefühl, ohne dass man hinschauen muss |
-| **Rollende Ziffern** bei jeder Änderung | Man *sieht*, dass sich ein Wert ändert, statt dass er springt |
-| Mini-Kurslinien, die jedes Quartal weiterwachsen | Entwicklung auf einen Blick |
-| Zeilen blitzen beim Quartalsabschluss grün oder rot auf, immer mit Pfeil | Gewinner und Verlierer sofort erkennbar |
-| Quartalsbericht fliegt als Karte ein | Der Moment „Quartalszahlen“ wird zum Ereignis |
-| **Münzen fliegen ins Konto** bei einer Dividende | Belohnungsmoment |
-
-- **Stärke:** Spannung und Klarheit.
-- **Schwäche:** Ohne Brettbezug wirkt es wie eine Finanz-App.
-
----
-
-## Empfehlung: Kombination statt Entweder-oder
-
-| Baustein | Herkunft | Wo |
+| Token | Wert | Verwendung |
 |---|---|---|
-| Bewegungssprache: rollende Ziffern, Aufblitzen, Münzen, Quartalsbericht | C | überall |
-| Aktien und Straßen als Karten (umdrehbar) | B | Start/Depot, Firmenansicht |
-| Brett mit Live-Puls und Firmen-Hervorhebung | A | Bereich „Brett“, Bank-iPad, später Tischansicht |
-| Helles Grundthema; der Dunkelmodus nutzt den Parkett-Look | A/B hell, C dunkel | Systemeinstellung |
+| `void` | `#000000` | Grund (OLED-Schwarz) |
+| `ink-1` … `ink-4` | `#0A0A0C` `#111114` `#1A1A1E` `#26262B` | Flächen, gestaffelt nach Höhe |
+| `hair` / `hair-2` | Weiß 8 % / 15 % | Haarlinien, Rahmen |
+| `silver-1` | `#F3F3F5` | Haupttext, große Zahlen |
+| `silver-2` | `#B6B6BD` | Zweittext |
+| `silver-3` | `#8A8A93` | Beschriftungen (Kontrast ≥ 5:1 auf Schwarz) |
+| `up` / `down` | `#3DD68C` / `#FF6B5E` | Gewinn / Verlust, immer mit ▲/▼ |
+| Glas | `rgba(16,16,19,.74)` + Unschärfe | HUD, Panels, Navigationsleiste |
 
-So bleibt das Brett im Mittelpunkt, Besitz fühlt sich greifbar an, und Geld- und
-Kursbewegungen sind spürbar, ohne dass die App überladen wirkt.
+**Farbgruppen** stammen direkt vom Foto des Spielplans:
+Braun `#934725`, Hellblau `#B9E3F5`, Pink `#D9308C`, Orange `#F59003`, Rot `#E3000E`,
+Gelb `#FEEC03`, Grün `#03943D`, Dunkelblau `#0267B5`.
 
-## Bewegungsregeln
+**Firmen** bekommen eine Lichtfarbe, die sich von den Gruppen abhebt (im
+Prototyp: TECH Cyan, BAU Violett, RETAIL Bernstein, HAFEN Mint). Bei der Gründung
+wählt die App automatisch eine freie Farbe.
 
-1. **Jeder Effekt bedeutet etwas.** Geld bewegt sich → Ziffern rollen. Besitz
-   wechselt → Stempel. Kurs ändert sich → Aufblitzen mit Pfeil. Kein Effekt nur
-   zur Deko.
-2. **Kurz:** 150–900 ms. Nichts blockiert die Bedienung, und niemand wartet auf
-   eine Animation.
-3. **Flüssig auch auf älteren Handys:** Animiert werden nur `transform` und
-   `opacity`.
-4. **Barrierefrei:** Bei „Bewegung reduzieren“ (`prefers-reduced-motion`) sind alle
-   Animationen aus, und Werte springen direkt.
-5. **Nicht nur Farbe:** Steigen und Fallen immer zusätzlich mit ▲/▼ und Vorzeichen.
-6. **Ruhig bleiben:** Live-Pulse für Mieten, aber nichts blinkt dauerhaft. Töne
-   sind optional und standardmäßig aus.
+## 3. Typografie
 
-## Offene Design-Fragen
+Eine Familie, **Geist** (UI) und **Geist Mono** (Kürzel, Preise auf dem Brett,
+Ticker). Die Hierarchie entsteht durch Größe, Strichstärke und Laufweite, nicht durch
+viele Schriften:
 
-| ID | Frage | Empfehlung |
+| Rolle | Größe / Strich | Beispiel |
 |---|---|---|
-| DS-01 | Welche Richtung? | **Kombination** wie oben |
-| DS-02 | Hell oder dunkel als Standard? | **Hell**; der Dunkelmodus folgt der Systemeinstellung |
-| DS-03 | Brett auf dem Handy bei 52 Feldern | **Zoombares Brett** (zwei Finger) + Bottom Sheet; alternativ eine Ansicht pro Brettseite |
-| DS-04 | Töne (Münzklimpern bei Dividende, Kassenklingeln bei Miete)? | **Optional, standardmäßig aus** |
+| Hero-Zahl | 46 px / 300, Silberverlauf | Kontostand auf der Metallkarte |
+| Titel | 30–34 px / 300–400, Laufweite −2 % | „Quartal 4“, „Schlossallee“ |
+| Text | 15–16 px / 400 | Listen, Erklärungen |
+| Label | 11 px / 500, Versalien, Laufweite +18 % | „MIETE FÄLLIG“, „DEPOT“ |
+| Daten | Geist Mono 11–12 px | `TECH`, `M 400` |
+
+Alle Zahlen stehen in Tabellenziffern, damit nichts springt.
+
+## 4. Signatur-Elemente
+
+1. **Der 3D-Tisch** (Tischansicht, UI-03). Das echte 52-Felder-Brett als
+   schwarze Platte:
+   - Häuser und Hotels als Silberblöcke. Wolkenkratzer sind Glastürme mit einem
+     Lichtstreifen in Firmenfarbe.
+   - Ziehen dreht das Brett. Tippst du ein Feld an, fliegt die Kamera hin, und ein
+     Glaspanel zeigt die Miete mit Aufschlüsselung.
+   - Jede Mietzahlung am Tisch steigt als Lichtsäule aus dem Feld auf. Daneben
+     erscheint „+3.800 M · Mia → TECH AG“.
+   - Tippst du im Ticker eine Firma an, leuchten ihre Straßen auf, der Rest wird
+     dunkel.
+2. **Die Metallkarte** (Handy). Das Konto als schwarze, gebürstete Metallkarte,
+   die sich mit dem Finger neigt. Der Kontostand rollt bei jeder Buchung
+   (Zählwerk).
+3. **Halten statt Tippen** (UI-02). Ab 1.000 M füllt sich der Knopf beim Halten von
+   links mit Silber. Lässt man früh los, läuft er zurück.
+4. **Das folgende Brett** (Ersatz für DS-03). Auf dem Handy wischt man durch eine
+   Leiste aller Felder, und das 3D-Brett darüber fliegt jeweils mit. Ein Zwei-Finger-Zoom ist nie nötig.
+5. **Silberne Spielfiguren** (UI-01). Eigene, schlichte Symbole (Hut, Auto, Schiff,
+   Katze …) in silbernen Münzen. Es sind keine Nachbildungen der Original-Figuren.
+
+## 5. Bewegung
+
+| Moment | Dauer | Kurve |
+|---|---|---|
+| Eröffnung: Brett schwenkt in Position | 2,2 s | ease-in-out |
+| Kamerafahrt zu einem Feld | 1,15 s | ease-in-out |
+| Zählwerk (Kontostand, Kurs) | 1,1 s | ease-out |
+| Sheet, Panel | 0,65 s | ease-out |
+| Halten zum Bezahlen | 0,95 s | linear |
+| Leerlauf: Brett „atmet“ (±4°) | 5 s Zyklus | Sinus |
+
+Regeln: Jeder Effekt bedeutet etwas. Animiert werden nur `transform` und
+`opacity`. Bei „Bewegung reduzieren“ entfallen Leerlauf, Kamerafahrten und
+Lichtsäulen; die Werte springen direkt.
+
+## 6. Technische Hinweise für die Umsetzung
+
+- **3D ohne Bibliothek:** Das Brett besteht aus CSS-3D-Transformationen
+  (`perspective`, `preserve-3d`). Das ist leicht, schnell, läuft überall und
+  braucht kein WebGL.
+- **Fallstricke** (im Prototyp gelöst):
+  - `opacity`, `filter` und `overflow: hidden` auf einem 3D-Container machen ihn
+    flach. Abgedunkelt wird deshalb nur der Inhalt eines Feldes.
+  - Felder liegen 0,5 px über der Platte, damit nichts flimmert.
+  - Beschriftungen über Feldern werden über `getBoundingClientRect` eines
+    unsichtbaren Ankers im 3D-Raum positioniert und bleiben dadurch gestochen
+    scharf.
+- **Kamera:** `rotateX(neigen) rotateZ(drehen) scale(zoom) translate(…)`. Für ein
+  Feld dreht die Kamera auf dessen Brettseite und zielt leicht Richtung Mitte,
+  damit das Feld vorne steht.
+- **Brettdaten** kommen aus
+  [`data/board/mega-black-edition.json`](../data/board/mega-black-edition.json).
+
+## 7. Entscheidungen
+
+| ID | Frage | Stand |
+|---|---|---|
+| DS-01 | Richtung | ✅ Kombination aus Brett, Karten und Bewegung, aber in der neuen Sprache **Black Edition** |
+| DS-02 | Hell oder dunkel? | ✅ **Schwarz** als Standard. Das weicht von meiner früheren Empfehlung „hell“ ab, folgt aber deinem Wunsch nach einem Black Design und dem Look der Box |
+| DS-03 | Handy-Brett bei 52 Feldern | ❌ Zwei-Finger-Zoom abgelehnt → **„Das folgende Brett“** (§4.4), im Prototyp zum Ausprobieren |
+| DS-04 | Töne | ✅ Optional, standardmäßig aus |
+| DS-05 | Name der App | ⬜ Arbeitstitel **„Tischbörse“**. Ein eigener Name ist nötig, falls die App je öffentlich wird, denn „Monopoly“ ist eine Marke von Hasbro |
+| DS-06 | Spielfiguren | ⬜ Eigene, schlichte Silber-Symbole (im Prototyp: Hut, Auto, Schiff, Katze). Offen: Welche Figuren liegen in deiner Box? Dann gestalte ich den passenden Satz |

@@ -59,7 +59,7 @@ kleine Server-Instanz.
 ## 4. Gesamtbild
 
 ```
- 📱 iPhone      📱 iPad (Bank)      💻 Desktop      📺 Tischansicht (später)
+ 📱 iPhone      📱 iPad (Bank)      💻 Desktop      📺 Tischansicht
      │               │                  │                 │
      └──────── WebSocket (Socket.IO) + HTTPS ─────────────┘
                               │
@@ -291,7 +291,7 @@ Schnellbuchung über einen Ziffernblock (+100, +500 …) und Spielsteuerung
 - Geänderte Werte blinken kurz grün oder rot; eingehende Ereignisse erscheinen als
   Hinweis.
 - Deutsche Zahlenformate („8.450 M“), Hell- und Dunkelmodus.
-- **Später:** eine **Tischansicht** für TV oder iPad in der Tischmitte
+- **Ab Version 1 (UI-03):** eine **Tischansicht** für TV oder iPad in der Tischmitte
   (Börsenticker, Quartalsbericht, Konjunktur).
 
 Das ausführliche UI-Konzept steht in [`05-ui-konzept.md`](05-ui-konzept.md).
@@ -350,9 +350,9 @@ Paketverwaltung: pnpm-Workspaces (ein Repository, mehrere Pakete).
 | **1** | Entscheidungen klären, Regelwerk v0.1, UI-Konzept, `board.json` | Freigegebene Regeln (Kern ✅, Kartendaten fehlen) |
 | **2** | Engine + Tests + erste Simulation (noch ohne Oberfläche) | Regeln rechnen nachweislich korrekt |
 | **3** | **Technischer Durchstich:** Lobby, Beitritt, Bank, Konten, Ein-/Auszahlung, Überweisung, Verlauf, Echtzeit | Mehrere Handys sehen live dasselbe |
-| **4** | Wirtschaft: Grundbuch, Gründung, Aktien, Bewertung, Firmenmiete, Bauen, Dividenden, Quartal | Spielbare Kernversion |
+| **4** | Wirtschaft: Grundbuch, Gründung, Aktien, Bewertung, Firmenmiete, Bauen, Dividenden, Quartal, **Tischansicht** (UI-03) | Spielbare Kernversion |
 | **5** | Projekte, Ereignisse, Konjunktur, Notverkauf/Insolvenz | **Erste vollständige Testpartie** |
-| **6+** | Beteiligungen, Tischansicht, Statistiken, Accounts, Volldigital-Modus | Ausbau nach Testerfahrung |
+| **6+** | Beteiligungen, Statistiken, Accounts, Volldigital-Modus | Ausbau nach Testerfahrung |
 
 Etappe 3 kommt bewusst früh: Die Echtzeit-Synchronisation über mehrere Geräte ist
 das größte technische Risiko und soll sich bewähren, bevor viel Spiellogik daran

@@ -19,7 +19,7 @@
 
 | ID | Thema | Prio | Status | Entscheidung bzw. Empfehlung (kurz) |
 |---|---|---|---|---|
-| [G-01](#g-01) | Spielausgabe & Kartendaten | 🔴 | ✅❓ | Mega Black Edition, Startgeld 1.500 M, Los 200 M (beides bar); Kartendaten fehlen noch |
+| [G-01](#g-01) | Spielausgabe & Kartendaten | 🔴 | ✅❓ | Mega Black Edition, 52 Felder (Spielplan erfasst), Startgeld 1.500 M, Los 200 M bar; Mieten fehlen noch |
 | [G-02](#g-02) | Was läuft über die App, was bleibt physisch? | 🔴 | ✅ | Grundbuch in der App; Firmenmiete digital, Rest hybrid |
 | [G-03](#g-03) | Bargeld & Gesamtvermögen | 🟢 | ⬜ | Vermögen „ohne Bargeld“ anzeigen (durch G-05 weniger wichtig) |
 | [G-04](#g-04) | Takt der Wirtschaft | 🔴 | ✅ | Quartal endet, wenn der Startspieler über Los zieht |
@@ -67,9 +67,22 @@
 ### G-01 – Spielausgabe & Kartendaten 🔴 ✅❓
 **Entschieden:** **Monopoly Mega Black Edition.** Startgeld 1.500 M, Los-Geld 200 M,
 beides läuft **bar**. Das Währungssymbol ist in der App einstellbar (Standard: M).
-**Noch offen:** die Kartendaten (siehe unten). Am einfachsten sind Fotos aller
-Besitzrechtkarten (Vorderseiten) plus der Regelseiten zu Wolkenkratzern und
-Bahnhöfen/Depots.
+**Spielplan erfasst** (Foto vom 06.10.2026): alle 52 Felder in
+[`data/board/mega-black-edition.json`](../data/board/mega-black-edition.json), mit
+Reihenfolge, Namen, Kaufpreisen, Steuern und Gruppenfarben.
+- **8 Zusatzstraßen:** Stadionstraße (Braun), Tiergartenstraße (Hellblau),
+  Marktplatz (Pink), Hamburger Straße (Orange), Konzerthausstraße (Rot),
+  Rilkestraße (Gelb), Börsenplatz (Grün), Domplatz (Dunkelblau)
+- **Neue Felder:** Gaswerk, Auktion, Busfahrkarte, Geburtstagsgeschenk
+
+**Noch offen:** Mieten, Hauspreise, Hypothekenwerte und Wolkenkratzer. Dafür
+brauche ich Fotos der Besitzrechtkarten (Vorderseiten) und der Regelseite zu den
+Wolkenkratzern.
+
+**Folge für die Gründung (U-01):** Sechs Farbgruppen haben jetzt **4 Straßen**,
+nur Braun und Dunkelblau haben 3. Eine vollständige Gruppe ist damit deutlich
+schwerer zu bekommen, Gründungen werden seltener, und Braun und Dunkelblau werden
+die „leichtesten“ Gründungen. Die Simulation soll zeigen, ob das so passt.
 
 **Ursprüngliche Frage:** Welche Ausgabe genau?
 Die App braucht für jede Straße: Name, Farbgruppe, Kaufpreis, Hauspreis,

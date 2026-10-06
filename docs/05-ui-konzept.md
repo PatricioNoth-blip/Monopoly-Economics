@@ -23,7 +23,7 @@
 |---|---|---|---|
 | Spieler | Smartphone | hochkant, eine Hand | kurze Blicke: Miete, Aktien, Kontostand |
 | Bank (Spielleiter) | iPad | quer, liegt offen auf dem Tisch | dauerhaft: Ein-/Auszahlungen, Freigaben, Quartal |
-| Tischansicht (später) | TV oder iPad in der Mitte | nur Anzeige | Börsenticker, Quartalsbericht |
+| **Tischansicht** (ab Version 1, UI-03) | TV oder iPad in der Tischmitte | nur Anzeige | 3D-Brett mit Live-Geschehen, Börse, Quartalsbericht |
 
 ## 3. Was am Tisch wie oft passiert
 
@@ -475,11 +475,11 @@ Geldbetrag (formatiert, animiert) · Veränderung (±, Pfeil) · „Warum?“-Au
 Technik wie in der Architektur: React, Tailwind, Radix-Bausteine, PWA. Ziel für die
 erste Ladezeit über Mobilfunk: deutlich unter 200 KB JavaScript (komprimiert).
 
-## 12. Offene UI-Fragen
+## 12. UI-Entscheidungen
 
-| ID | Frage | Empfehlung |
+| ID | Frage | Entscheidung |
 |---|---|---|
-| UI-01 | Spielfiguren als Avatare? | **Ja.** Beim Beitritt wählt man eine Figur (neutrale Symbole). Am Tisch erkennt man Spieler schneller an der Figur als am Namen |
-| UI-02 | „Gedrückt halten“ bei großen Beträgen? | **Ja**, ab 1.000 M und bei allem Unumkehrbaren |
-| UI-03 | Tischansicht (TV/iPad in der Mitte) schon in Version 1? | **Nein**, später. Den Quartalsbericht bekommen zunächst alle aufs eigene Gerät |
-| UI-04 | Sprache | **Deutsch.** Alle Texte liegen zentral, damit Englisch später leicht nachrüstbar ist |
+| UI-01 | Spielfiguren als Avatare? | ✅ **Ja.** Beim Beitritt wählt man eine Figur (eigene, neutrale Symbole in Silber). Am Tisch erkennt man Spieler schneller an der Figur als am Namen |
+| UI-02 | „Gedrückt halten“ bei großen Beträgen? | ✅ **Ja**, ab 1.000 M und bei allem Unumkehrbaren |
+| UI-03 | Tischansicht (TV/iPad in der Mitte) schon in Version 1? | ✅ **Ja, direkt in Version 1** (entgegen meiner Empfehlung). Sie wird das Schaufenster der App: das 3D-Brett mit Live-Geschehen |
+| UI-04 | Sprache | ✅ **Deutsch.** Alle Texte liegen zentral, damit Englisch später leicht nachrüstbar ist |

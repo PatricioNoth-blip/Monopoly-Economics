@@ -23,7 +23,8 @@ Rechenkern (Engine).
 | [`docs/03-architektur.md`](docs/03-architektur.md) | Technische Architektur, Datenmodell, Etappenplan |
 | [`docs/04-regelwerk.md`](docs/04-regelwerk.md) | Regelwerk v0.1: entschiedene Regeln + offene Vorschläge |
 | [`docs/05-ui-konzept.md`](docs/05-ui-konzept.md) | UI-Konzept: Navigation, Abläufe, Wireframes für Smartphone und iPad |
-| [`docs/06-design-richtungen.md`](docs/06-design-richtungen.md) | Design-Richtungen (Spielbrett, Karten, Börsenparkett) mit klickbarem Prototyp |
+| [`docs/06-design-richtungen.md`](docs/06-design-richtungen.md) | Design-System „Black Edition“ mit 3D-Prototyp ([`design/`](design/)) |
+| [`data/board/mega-black-edition.json`](data/board/mega-black-edition.json) | Spielplan der Mega Black Edition: 52 Felder, Gruppen, Preise |
 
 ## Geplanter Technik-Stack (Vorschlag)
 
@@ -43,7 +44,8 @@ apps/web         WebApp für Spieler und Bank
 packages/engine  Spielregeln, Bewertung, Mieten (reine Logik)
 packages/protocol Gemeinsame Schemas für Befehle und Ereignisse
 tools/sim        Balancing-Simulation
-data/board       Brettdaten
+data/board       Brettdaten (Mega Black Edition)
+design/          Design-Prototypen
 docs/            Konzept & Entscheidungen
 ```
 
