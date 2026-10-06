@@ -23,6 +23,7 @@ Rechenkern (Engine).
 | [`docs/03-architektur.md`](docs/03-architektur.md) | Technische Architektur, Datenmodell, Etappenplan |
 | [`docs/04-regelwerk.md`](docs/04-regelwerk.md) | Regelwerk v0.1: entschiedene Regeln + offene Vorschläge |
 | [`docs/05-ui-konzept.md`](docs/05-ui-konzept.md) | UI-Konzept: Navigation, Abläufe, Wireframes für Smartphone und iPad |
+| [`docs/06-design-richtungen.md`](docs/06-design-richtungen.md) | Design-Richtungen (Spielbrett, Karten, Börsenparkett) mit klickbarem Prototyp |
 
 ## Geplanter Technik-Stack (Vorschlag)
 
