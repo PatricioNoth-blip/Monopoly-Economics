@@ -116,6 +116,7 @@ bündelt die Rechnerei auf wenige, klar erkennbare Momente.
 | W9 | Ein Spieler, der Aktien hält, geht bankrott | Monopoly regelt nur Straßen und Geld | Aktien gehen an den Gläubiger → **K-03** |
 | W10 | Spielende | Klassisch „alle bis auf einen pleite“ kann mit Firmen sehr lange dauern | Optional Zeit-/Quartalslimit mit Vermögenswertung → **G-05** |
 | W11 | Dynamische Mieten von 5.000 M und mehr | Können Spieler mit einem einzigen Wurf aus dem Spiel nehmen | Bewusst so wollen oder Mietdeckel → **P-04** |
+| W12 | *(neu, Runde 1)* Spielende durch Pleite (G-05), aber kein Käufer für Aktien (A-05) | Wer reich an Aktien, aber knapp bei Kasse ist, geht pleite, weil niemand kauft | Notverkauf an die Bank zu 50 % des Kurses, nur in Zahlungsnot → **A-06** |
 
 ---
 
@@ -127,7 +128,7 @@ Jeder Exploit hat eine Gegenmaßnahme, die in den Entscheidungen verankert ist.
 |---|---|---|---|
 | X1 | **Gründen & Abstoßen** | Kauft die Bank Aktien immer zum Kurs an und enthält der Kurs schon einen Ertragsaufschlag, ist Gründen und sofort Verkaufen ein Gewinn aus dem Nichts | Kein automatischer Bank-Ankauf (**A-05**); Ertragswert erst nach dem ersten Quartal (**B-02**) |
 | X2 | **Selbstbedienung (Insidergeschäft)** | CEO (51 %) verkauft seine private Badstraße (60 M) für 3.000 M an die eigene Firma. Die Minderheitsaktionäre zahlen 49 % davon | Preisband für Geschäfte zwischen Firma und Insidern, sonst Zustimmung der übrigen Aktionäre (**K-02**) |
-| X3 | **Endspiel-Pumpen** | Kurz vor Spielende Projekte bauen, damit der Ertragsaufschlag das Vermögen auf dem Papier aufbläht | Ertragswert wird nur beim Quartalsabschluss festgestellt; das Spielende ist kein Quartalsabschluss (**B-02**) |
+| X3 | **Endspiel-Pumpen** | Kurz vor Spielende Projekte bauen, damit der Ertragsaufschlag das Vermögen auf dem Papier aufbläht | Ertragswert wird nur beim Quartalsabschluss festgestellt (**B-02**). *Da die Partie durch Pleite endet (G-05), ohne Schlusswertung, kaum noch relevant.* |
 | X4 | **Verdeckte Schenkung / Königsmacher** | Ein unterlegener Spieler kauft einem Freund 1 Aktie für 5.000 M ab | Preisband für Aktienhandel (**A-04**) |
 | X5 | **Kursmanipulation durch Scheingeschäfte** | Zwei Spieler handeln untereinander zu Fantasiepreisen, um den Kurs zu bewegen | Kurs hängt nicht von Handelspreisen ab (**A-03**) |
 | X6 | **Ausplündern per Dividende** | Gesamte Kasse ausschütten, danach ist die Firma handlungsunfähig | Ausschüttung nur aus Gewinnen und oberhalb einer Mindestreserve (**D-01**) |

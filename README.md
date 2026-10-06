@@ -11,8 +11,9 @@ kompliziert wäre, und zeigt allen Geräten am Tisch in Echtzeit denselben Stand
 
 ## Status
 
-**Phase 0 – Konzept.** Es gibt noch keinen Anwendungscode. Zuerst werden Regeln und
-Architektur gemeinsam festgelegt.
+**Phase 1 – Regelwerk.** Es gibt noch keinen Anwendungscode. Die ersten
+Kernentscheidungen sind getroffen; Regeln und Architektur werden weiter gemeinsam
+festgelegt.
 
 | Dokument | Inhalt |
 |---|---|
@@ -20,6 +21,7 @@ Architektur gemeinsam festgelegt.
 | [`docs/01-analyse.md`](docs/01-analyse.md) | Konzeptanalyse: Widersprüche, Exploits, Balancing |
 | [`docs/02-entscheidungen.md`](docs/02-entscheidungen.md) | Offene Designentscheidungen mit Empfehlungen |
 | [`docs/03-architektur.md`](docs/03-architektur.md) | Technische Architektur, Datenmodell, Etappenplan |
+| [`docs/04-regelwerk.md`](docs/04-regelwerk.md) | Regelwerk v0.1 (Entwurf): entschiedene Regeln + Vorschläge |
 
 ## Geplanter Technik-Stack (Vorschlag)
 

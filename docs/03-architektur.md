@@ -107,7 +107,7 @@ rent(state, propertyId, ctx) → { total, positionen[] }
   einem versionierten Regelwerk. Die Bank wählt beim Erstellen ein Preset.
 
 ### Invarianten (werden nach **jeder** Aktion automatisch geprüft und getestet)
-1. Die Aktienzahl jeder Firma bleibt konstant (Summe aller Besitzer + Reserve = 100).
+1. Die Aktienzahl jeder Firma bleibt konstant (Summe aller Besitzer + Reserve + Bankbestand = 100).
 2. Kein Konto eines Spielers oder einer Firma ist jemals negativ.
 3. Jede Geldbewegung hat Quelle und Ziel (doppelte Buchführung). Geld entsteht und
    verschwindet nur über das Bank-Konto.
@@ -197,7 +197,7 @@ Warum so?
 ```
 Partie ─┬─ Spieler ──────────── Konto
         ├─ Firma ──┬─────────── Konto (Firmenkasse)
-        │          ├─ Aktienbesitz (Inhaber: Spieler | Firma | Reserve)
+        │          ├─ Aktienbesitz (Inhaber: Spieler | Firma | Reserve | Bankbestand)
         │          └─ Projekte ─── auf Straße, belegt Slots
         ├─ Straße (statisch: Brettdaten) + Zustand (Besitzer, Gebäude, Hypothek)
         ├─ Buchung (von Konto → an Konto, Betrag, Art, Bezug, Akteur)
@@ -223,7 +223,7 @@ Partie ─┬─ Spieler ──────────── Konto
 | Aktion | Bank | Spieler (selbst) | CEO (für Firma) | Aktionär |
 |---|:-:|:-:|:-:|:-:|
 | Partie starten/pausieren/beenden, Quartal abschließen | ✔ | – | – | – |
-| Ein-/Auszahlung, Korrekturbuchung | ✔ (eigenes Spielerkonto: 4 Augen) | – | – | – |
+| Ein-/Auszahlung, Korrekturbuchung | ✔ | – | – | – |
 | Grundbuch-Eintrag („gekauft“) | ✔ | ✔ | – | – |
 | Mietforderung stellen / bezahlen | ✔ | ✔ / ✔ | ✔ / – | – |
 | Firma gründen | – | ✔ | – | – |
@@ -294,7 +294,7 @@ Schnellbuchung über einen Ziffernblock (+100, +500 …) und Spielsteuerung
 - **Später:** eine **Tischansicht** für TV oder iPad in der Tischmitte
   (Börsenticker, Quartalsbericht, Konjunktur).
 
-Das ausführliche UI-Konzept folgt als eigener Schritt (`04-ui-konzept.md`).
+Das ausführliche UI-Konzept folgt als eigener Schritt (`05-ui-konzept.md`).
 
 ---
 

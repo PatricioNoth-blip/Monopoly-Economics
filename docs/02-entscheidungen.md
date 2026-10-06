@@ -10,35 +10,40 @@
 - 🟡 blockiert das Regelwerk
 - 🟢 kann später entschieden werden
 
-**Status**: alle Punkte sind zunächst `offen`.
+**Status**
+- ✅ entschieden
+- ✅❓ entschieden, aber eine Rückfrage ist offen
+- ⬜ offen; Text = meine Empfehlung
 
 ## Übersicht
 
-| ID | Thema | Prio | Meine Empfehlung (kurz) |
-|---|---|---|---|
-| [G-01](#g-01) | Spielausgabe & Kartendaten | 🔴 | Exakte Daten deiner Mega-Edition erfassen |
-| [G-02](#g-02) | Was läuft über die App, was bleibt physisch? | 🔴 | Grundbuch in der App; Firmenmiete digital, Rest hybrid |
-| [G-03](#g-03) | Bargeld & Gesamtvermögen | 🟡 | Vermögen „ohne Bargeld“, Bargeld erst bei der Schlusswertung eintragen |
-| [G-04](#g-04) | Takt der Wirtschaft | 🔴 | Quartal endet, wenn der Startspieler über Los zieht |
-| [G-05](#g-05) | Spielende & Wertung | 🟡 | Quartalslimit (z. B. 8) mit Vermögenswertung, klassisch optional |
-| [G-06](#g-06) | Sichtbarkeit von Kontoständen | 🟡 | Alles öffentlich |
-| [U-01](#u-01) | Gründungsvoraussetzung | 🔴 | Vollständige Farbgruppe wird in die Firma eingebracht |
-| [U-02](#u-02) | Gründungskosten & Startkapital | 🔴 | Gebühr max(500, 50 % Gruppenpreis), Kapital ≥ max(1.000, 100 % Gruppenpreis) |
-| [U-03](#u-03) | Hypotheken | 🟡 | Firmen beleihen nie; Straßen müssen hypothekenfrei sein |
-| [U-04](#u-04) | Bauen & Straßenerwerb durch Firmen | 🟡 | Bauen zwischen den Zügen; Straßen nur per Handel (+ ggf. Auktion) |
-| [U-05](#u-05) | Mehrere Firmen / Zuschüsse | 🟢 | Unbegrenzt; Zuschüsse erlaubt |
-| [A-01](#a-01) | Aktienanzahl | 🔴 | 100 Aktien je Firma (1 Aktie = 1 %) |
-| [A-02](#a-02) | Emissionsreserve | 🔴 | Gründer ≥ 51 Aktien, Rest verkauft die Firma zum Kurs |
-| [A-03](#a-03) | Kursbildung | 🔴 | Kurs = Wert / umlaufende Aktien, unabhängig von Handelspreisen |
-| [A-04](#a-04) | Aktienhandel zwischen Spielern | 🟡 | Marktplatz-Angebote + Handelsangebote, Preisband 50–200 % |
-| [A-05](#a-05) | Bank als Marktmacher | 🟡 | Nein |
-| [B-01](#b-01) | Substanzwert | 🔴 | Kasse + Straßen + Gebäude + Projekte + Beteiligungen |
-| [B-02](#b-02) | Ertragswert | 🔴 | Ertragskraft/Quartal × 2 × Konjunktur, festgestellt je Quartal |
-| [D-01](#d-01) | Dividendenregel | 🟡 | Nur aus Gewinn, Kasse bleibt ≥ Reserve, 1× pro Quartal |
-| [K-01](#k-01) | CEO & Kontrolle | 🔴 | CEO = größter Aktionär; Grundsatzfragen brauchen > 50 % |
-| [K-02](#k-02) | Insidergeschäfte | 🟡 | Preisband 80–120 % oder Zustimmung der übrigen Aktionäre |
-| [K-03](#k-03) | Aktien bei Spielerbankrott | 🟡 | An Gläubiger; bei der Bank zurück in die Emissionsreserve |
-| [K-04](#k-04) | Beteiligungen zwischen Firmen | 🟢 | Erlaubt, azyklisch, aber erst Version 2 |
+| ID | Thema | Prio | Status | Entscheidung bzw. Empfehlung (kurz) |
+|---|---|---|---|---|
+| [G-01](#g-01) | Spielausgabe & Kartendaten | 🔴 | ✅❓ | Mega Black Edition, Startgeld 1.500 M, Los 200 M (beides bar); Kartendaten fehlen noch |
+| [G-02](#g-02) | Was läuft über die App, was bleibt physisch? | 🔴 | ⬜ | Grundbuch in der App; Firmenmiete digital, Rest hybrid |
+| [G-03](#g-03) | Bargeld & Gesamtvermögen | 🟢 | ⬜ | Vermögen „ohne Bargeld“ anzeigen (durch G-05 weniger wichtig) |
+| [G-04](#g-04) | Takt der Wirtschaft | 🔴 | ✅ | Quartal endet, wenn der Startspieler über Los zieht |
+| [G-05](#g-05) | Spielende & Wertung | 🟡 | ✅ | Klassisch: Die Partie endet durch Pleite |
+| [G-06](#g-06) | Sichtbarkeit von Kontoständen | 🟡 | ⬜ | Alles öffentlich |
+| [G-07](#g-07) | Digitales Startguthaben | 🟡 | ⬜ | 0 M; das Startgeld ist komplett Bargeld |
+| [U-01](#u-01) | Gründungsvoraussetzung | 🔴 | ✅ | Vollständige Farbgruppe wird in die Firma eingebracht |
+| [U-02](#u-02) | Gründungskosten & Startkapital | 🔴 | ✅❓ | Gebühr 1.000 M an die Bank, Startkapital 1.500 M in die Firma |
+| [U-03](#u-03) | Hypotheken | 🟡 | ⬜ | Firmen beleihen nie; Straßen müssen hypothekenfrei sein |
+| [U-04](#u-04) | Bauen & Straßenerwerb durch Firmen | 🟡 | ⬜ | Bauen zwischen den Zügen; Straßen nur per Handel (+ ggf. Auktion) |
+| [U-05](#u-05) | Mehrere Firmen / Zuschüsse | 🟢 | ⬜ | Unbegrenzt; Zuschüsse erlaubt |
+| [A-01](#a-01) | Aktienanzahl | 🔴 | ✅ | 100 Aktien je Firma (1 Aktie = 1 %) |
+| [A-02](#a-02) | Emissionsreserve | 🔴 | ✅ | Gründer ≥ 51 Aktien, Rest verkauft die Firma zum Kurs |
+| [A-03](#a-03) | Kursbildung | 🔴 | ⬜ | Kurs = Wert / umlaufende Aktien, unabhängig von Handelspreisen |
+| [A-04](#a-04) | Aktienhandel zwischen Spielern | 🟡 | ⬜ | Marktplatz-Angebote + Handelsangebote, Preisband 50–200 % |
+| [A-05](#a-05) | Bank als Marktmacher | 🟡 | ⬜ | Nein, mit Ausnahme der Zahlungsnot (A-06) |
+| [A-06](#a-06) | Notverkauf von Aktien an die Bank | 🔴 | ⬜ | Nur in Zahlungsnot, zu 50 % des Kurses, Aktien gehen in den Bankbestand |
+| [B-01](#b-01) | Substanzwert | 🔴 | ⬜ | Kasse + Straßen + Gebäude + Projekte + Beteiligungen |
+| [B-02](#b-02) | Ertragswert | 🔴 | ⬜ | Ertragskraft/Quartal × 2 × Konjunktur, festgestellt je Quartal |
+| [D-01](#d-01) | Dividendenregel | 🟡 | ⬜ | Nur aus Gewinn, Kasse bleibt ≥ Reserve, 1× pro Quartal |
+| [K-01](#k-01) | CEO & Kontrolle | 🔴 | ✅❓ | CEO = größter Aktionär; Verkauf nur mit > 50 %, außer zur Abwendung der Pleite |
+| [K-02](#k-02) | Insidergeschäfte | 🟡 | ⬜ | Preisband 80–120 % oder Zustimmung der übrigen Aktionäre |
+| [K-03](#k-03) | Aktien bei Spielerbankrott | 🔴 | ⬜ | An den Gläubiger; ist das die Bank, gehen sie in den Bankbestand (A-06) |
+| [K-04](#k-04) | Beteiligungen zwischen Firmen | 🟢 | ⬜ | Erlaubt, azyklisch, aber erst Version 2 |
 | [P-01](#p-01) | Projekt-Slots | 🟡 | Hotel = 1 Slot, Wolkenkratzer = 3 Slots |
 | [P-02](#p-02) | Projektkatalog | 🟡 | 6 Projekte in zwei Familien (Miete / fester Ertrag) |
 | [P-03](#p-03) | Bauzeit, Abriss, Verkauf | 🟡 | Fertig zum nächsten Quartal; Abriss bringt 50 % |
@@ -59,8 +64,14 @@
 ## G – Grundlagen
 
 <a id="g-01"></a>
-### G-01 – Spielausgabe & Kartendaten 🔴
-**Frage:** Welche Ausgabe genau („Mega-Edition“, schwarze Box, deutsche Version)?
+### G-01 – Spielausgabe & Kartendaten 🔴 ✅❓
+**Entschieden:** **Monopoly Mega Black Edition.** Startgeld 1.500 M, Los-Geld 200 M,
+beides läuft **bar**. Das Währungssymbol ist in der App einstellbar (Standard: M).
+**Noch offen:** die Kartendaten (siehe unten). Am einfachsten sind Fotos aller
+Besitzrechtkarten (Vorderseiten) plus der Regelseiten zu Wolkenkratzern und
+Bahnhöfen/Depots.
+
+**Ursprüngliche Frage:** Welche Ausgabe genau?
 Die App braucht für jede Straße: Name, Farbgruppe, Kaufpreis, Hauspreis,
 Mietstaffel (unbebaut, 1–4 Häuser, Hotel, Wolkenkratzer), Hypothekenwert sowie die
 Regeln für Bahnhöfe/Depots und Werke. Außerdem: Startgeld, Los-Geld, Anzahl der
@@ -100,8 +111,11 @@ Die App kennt dein Bargeld nicht. Vorschlag:
 - Optional kann jeder sein Bargeld jederzeit freiwillig eintragen.
 
 <a id="g-04"></a>
-### G-04 – Takt der Wirtschaft (Quartal) 🔴
-**Vorschlag:** Ein **Quartal endet, wenn der Startspieler über Los zieht.** Die Bank
+### G-04 – Takt der Wirtschaft (Quartal) 🔴 ✅
+**Entschieden** wie vorgeschlagen. (Welche Schritte der Abschluss enthält, hängt
+noch an den offenen Punkten B-02, P-03, R-01 und R-05.)
+
+Ein **Quartal endet, wenn der Startspieler über Los zieht.** Die Bank
 oder der Startspieler tippt „Quartal abschließen“.
 
 Beim **Quartalsabschluss** passiert in fester Reihenfolge:
@@ -116,8 +130,23 @@ Beim **Quartalsabschluss** passiert in fester Reihenfolge:
 und Spieltempo nicht dazu passen.
 
 <a id="g-05"></a>
-### G-05 – Spielende & Wertung 🟡
-**Optionen:**
+### G-05 – Spielende & Wertung 🟡 ✅
+**Entschieden: (a) klassisch.** Die Partie endet, wenn alle bis auf einen Spieler
+pleite sind.
+
+**Folgen dieser Entscheidung:**
+- Eine Schlusswertung ist nicht nötig. Exploit X3 (Endspiel-Pumpen) spielt damit
+  kaum noch eine Rolle.
+- Die Pleite-Regeln müssen jetzt **Aktien** abdecken: Wer hauptsächlich Aktien
+  besitzt, braucht im Notfall einen Käufer → neue Entscheidung **A-06**, und K-03
+  wird dringender.
+- **Geldmenge im Blick behalten:** Erzeugen Ertragsprojekte und Dividenden mehr
+  Geld, als Mieten und Kosten vernichten, geht niemand mehr pleite und die Partie
+  endet nie. Das prüfen wir mit der Simulation.
+- Später denkbar, aber **keine Regel**: Bei „Partie abbrechen“ zeigt die App eine
+  Vermögensrangliste an.
+
+**Damalige Optionen:**
 - **(a) Klassisch:** bis nur noch einer übrig ist. Mit Firmen kann das sehr lange
   dauern.
 - **(b) Quartalslimit (empfohlen als Standard):** Nach z. B. 8 Quartalen endet die
@@ -139,13 +168,25 @@ Baukosten (verhindert Exploit X3).
 **Alternative:** Private Kontostände sieht nur der Besitzer. Das ist möglich,
 macht die Bank aber zum Informationsträger (siehe Fairness).
 
+<a id="g-07"></a>
+### G-07 – Digitales Startguthaben 🟡 ⬜
+*Neu, folgt aus G-01.*
+Das Startgeld von 1.500 M ist Bargeld. **Vorschlag:** Digitale Konten starten mit
+**0 M**. Digitales Geld entsteht nur durch Einzahlung, Firmenmiete, Dividenden und
+Aktienverkäufe.
+
+**Folge für die Bedienung:** Die Gründung kostet 2.500 M digital (U-02). Damit
+dafür nicht zwei Schritte nötig sind, bietet die App „**Gründen mit
+Bareinzahlung**“ an: Der Gründer gibt der Bank das Bargeld, die Bank tippt
+„erhalten“, und die Gründung läuft in einem Zug durch.
+
 ---
 
 ## U – Unternehmen
 
 <a id="u-01"></a>
-### U-01 – Gründungsvoraussetzung 🔴
-**Vorschlag:**
+### U-01 – Gründungsvoraussetzung 🔴 ✅
+**Entschieden** wie vorgeschlagen.
 - Der Gründer besitzt eine **vollständige Farbgruppe** privat, alle Straßen
   hypothekenfrei.
 - Er **bringt die Gruppe samt Gebäuden in die Firma ein**. Die Besitzrechtkarten
@@ -158,20 +199,30 @@ die Firma außer Geld nichts. Die Gruppe ist der natürliche Kern des Unternehme
 „Versorger-AG“ aus beiden Werken.
 
 <a id="u-02"></a>
-### U-02 – Gründungskosten & Startkapital 🔴
-**Vorschlag** (Gruppenpreis = Summe der Kaufpreise der Farbgruppe):
-- **Gründungsgebühr** an die Bank: `max(500 M, 50 % × Gruppenpreis)`
-- **Startkapital** in die Firmenkasse: mindestens `max(1.000 M, 100 % × Gruppenpreis)`,
-  mehr ist erlaubt.
+### U-02 – Gründungskosten & Startkapital 🔴 ✅❓
+**Entschieden:** feste Beträge für jede Farbgruppe:
+- **Gründungsgebühr** an die Bank: **1.000 M**
+- **Startkapital** in die Firmenkasse: **1.500 M**
 
-Die Mindestbeträge verhindern, dass günstige Gruppen (z. B. Badstraße)
-Spottpreis-Firmen ergeben.
+**Rückfrage:** Sind 1.500 M fest oder ein **Minimum**? Ich würde mehr erlauben:
+Wer mehr Kapital mitbringt, kann schneller Projekte bauen, und seine Aktien sind
+entsprechend mehr wert. Für die anderen Spieler ist das neutral.
 
-**Beispiel:** Eine Gruppe aus 3 Straßen mit zusammen 800 M Kaufpreis, unbebaut.
-- Gebühr: max(500; 400) = **500 M** → Bank
-- Startkapital: max(1.000; 800) = **1.000 M** → Firmenkasse
-- Der Gründer zahlt also 1.500 M digital und bringt die Straßen ein.
-- Startwert der Firma: 1.000 (Kasse) + 800 (Straßen) = **1.800 M**
+**Beispiel:** Eine unbebaute Gruppe mit zusammen 800 M Kaufpreis.
+- Der Gründer zahlt 2.500 M (1.000 M an die Bank, 1.500 M in die Firma) und
+  bringt die Straßen ein.
+- Startwert der Firma: 1.500 (Kasse) + 800 (Straßen) = **2.300 M**
+- Behält er 60 Aktien: Kurs = 2.300 / 60 ≈ **38 M**. Die 40 Reserve-Aktien können
+  der Firma bis zu ~1.520 M frisches Kapital bringen.
+
+**Was das fürs Balancing bedeutet** (kein Einwand, nur zur Einordnung):
+- 2.500 M sind mehr als das gesamte Startgeld. Gründen wird damit ein Zug fürs
+  **mittlere Spiel**, also nicht zu billig, wie gewünscht.
+- Die Gebühr von 1.000 M ist weg. Rechnerisch lohnt sich eine Gründung, sobald
+  der Ertragswert (B-02) über 1.000 M liegt. Das erreichen vor allem **bebaute**
+  Gruppen. Unbebaute günstige Gruppen (z. B. Badstraße) werden selten gegründet,
+  denn die feste Gebühr trifft sie relativ am stärksten. Ob das so bleiben soll,
+  zeigt die Simulation.
 
 <a id="u-03"></a>
 ### U-03 – Hypotheken 🟡
@@ -204,8 +255,8 @@ Privatspieler dürfen weiterhin nach normalen Regeln beleihen.
 ## A – Aktien
 
 <a id="a-01"></a>
-### A-01 – Aktienanzahl 🔴
-**Empfehlung: 100 Aktien je Firma.**
+### A-01 – Aktienanzahl 🔴 ✅
+**Entschieden: 100 Aktien je Firma.**
 - 1 Aktie = 1 %, das lässt sich am Tisch sofort im Kopf rechnen.
 - Kurse sind ganze M-Beträge, wie bei Monopoly-Geld (keine Cent-Beträge).
 - Mehr Stückelung braucht eine Partie mit 4–8 Spielern nicht.
@@ -214,7 +265,9 @@ Privatspieler dürfen weiterhin nach normalen Regeln beleihen.
 mit Nachkommastellen und unhandlichen Prozenten (z. B. 3,7 %).
 
 <a id="a-02"></a>
-### A-02 – Emissionsreserve 🔴
+### A-02 – Emissionsreserve 🔴 ✅
+**Entschieden** wie vorgeschlagen.
+
 Löst das Problem „Wie kommt die Firma an Investorengeld?“ (Analyse 2.1).
 - Bei der Gründung entstehen **einmalig** 100 Aktien. Danach nie wieder welche.
 - Der Gründer wählt, wie viele er behält (**mindestens 51**). Den Rest hält die
@@ -262,11 +315,43 @@ verkaufen kann?
 **Empfehlung: Nein.** Kauft die Bank zum Kurs und enthält der Kurs einen
 Ertragsaufschlag, wird Gründen und Verkaufen zur Gelddruckmaschine (Exploit X1).
 Liquidität kommt stattdessen aus der Emissionsreserve und vom Marktplatz.
-**Später denkbar:** ein Notausgang, bei dem die Bank zu 50 % des Substanzwerts
-ankauft.
+Die einzige Ausnahme ist die Zahlungsnot, siehe **A-06**.
 
 Ausdrücklich **nicht** vorgesehen: Leerverkäufe, Optionen, Aktienrückkäufe (diese
 evtl. später).
+
+<a id="a-06"></a>
+### A-06 – Notverkauf von Aktien an die Bank 🔴 ⬜
+*Neu. Folgt aus G-05 (Ende durch Pleite) zusammen mit A-05 (keine Bank als
+Käufer).*
+
+**Problem:** Bei Monopoly ist die Bank in der Not immer Käufer: Häuser nimmt sie
+zum halben Preis zurück, Straßen beleiht sie zum Hypothekenwert. Für Aktien gäbe
+es ohne eigene Regel **keinen** sicheren Käufer. Dann kann zweierlei passieren:
+- Ein Spieler mit Aktien im Wert von 5.000 M, aber ohne Bargeld, geht wegen 300 M
+  Miete pleite, weil gerade niemand seine Aktien kaufen will.
+- Oder er bettelt am Tisch um einen Käufer, was Absprachen und Königsmacherei
+  fördert.
+
+**Vorschlag:**
+- **Nur in Zahlungsnot** (eine Zahlung ist anders nicht möglich) darf ein Spieler
+  oder eine Firma Aktien an die Bank verkaufen, zu **50 % des Kurses**. Das
+  entspricht dem Hypothekenwert bei Straßen.
+- Die Aktien kommen in einen **Bankbestand**: Die Bank bietet sie auf dem
+  Marktplatz zum vollen Kurs an, und der Erlös geht an die Bank. Aktien im
+  Bankbestand haben kein Stimmrecht, und ihre Dividende geht an die Bank.
+- Am Kurs ändert das nichts, denn die Aktien bleiben im Umlauf.
+
+**Warum kein Exploit:** Wer an die Bank verkauft, bekommt die Hälfte. Wer
+zurückkauft, zahlt das Doppelte. Der Umweg kostet also immer Geld.
+
+**Warum nicht zurück in die Emissionsreserve der Firma?** Dann bekäme die Firma
+Aktien geschenkt, die sie zum vollen Kurs weiterverkaufen kann, während die Bank
+die Hälfte bezahlt hat. Wer selbst Großaktionär ist, könnte daraus mit einem
+Kreislauf Geld erzeugen.
+
+**Alternative:** gar kein Notverkauf. Aktien zählen dann in der Not nicht, und
+wer kein Geld hat, ist pleite. Hart, aber einfach.
 
 ---
 
@@ -366,21 +451,38 @@ Reserve)“.
 ## K – Kontrolle & Konzern
 
 <a id="k-01"></a>
-### K-01 – CEO & Kontrolle 🔴
-**Vorschlag:**
+### K-01 – CEO & Kontrolle 🔴 ✅❓
+**Entschieden:** wie vorgeschlagen, mit deiner Ergänzung: *„außer das Unternehmen
+wird verkauft oder es ist die einzige Möglichkeit, eine Pleite zu verhindern“*.
+
+**Meine Lesart (bitte bestätigen):**
+- Den **Verkauf des Unternehmens** darf der CEO nicht allein beschließen. Dafür
+  braucht es > 50 % der Stimmen.
+- **Ausnahme:** Ist der Verkauf die einzige Möglichkeit, eine Pleite abzuwenden,
+  darf der CEO allein verkaufen (passt zu den Notverkäufen in R-04).
+
+**Was heißt „Unternehmen verkaufen“ in unserem Modell?** Seine **eigenen Aktien**
+darf jeder Aktionär jederzeit ohne Zustimmung verkaufen; das ist kein Verkauf
+*durch* das Unternehmen. Gemeint sein kann also nur, dass die Firma ihr Vermögen
+abgibt. Mein Vorschlag zur Abgrenzung:
+
+| Entscheidung | Wer entscheidet |
+|---|---|
+| Häuser/Hotels bauen und verkaufen, Projekte bauen und abreißen, Reserve-Aktien anbieten, Aktien anderer Firmen handeln, Dividende (D-01) | CEO allein |
+| **Straßen der Firma verkaufen**, Firma **auflösen**, Insidergeschäfte außerhalb des Preisbands (K-02) | > 50 % der Stimmen |
+| Alles davon in **Zahlungsnot**, wenn es die Pleite abwendet | CEO allein |
+
+**Weiterhin gilt:**
 - **CEO = größter Aktionär.** Bei Gleichstand bleibt der amtierende CEO. Wer mehr
   Aktien kauft als der CEO, wird automatisch neuer CEO. **So einfach ist eine
   Übernahme.**
+- Stimmen haben nur Aktien in Spieler- oder Firmenhand, nicht die
+  Emissionsreserve und nicht der Bankbestand (A-06). Die Bank wird nie CEO.
 - Ist eine Firma größter Aktionär, handelt deren CEO (später, mit K-04).
-- **Der CEO allein entscheidet** über das operative Geschäft: bauen, Projekte,
-  Dividende im Rahmen von D-01, Reserve-Aktien anbieten, Handel mit Dritten.
-- **Grundsatzentscheidungen brauchen > 50 % der umlaufenden Stimmen:** Auflösung
-  der Firma, Insidergeschäfte außerhalb des Preisbands (K-02). Die App stellt
-  einen Antrag, die Aktionäre tippen Ja oder Nein. Hält der CEO selbst > 50 %, gilt
-  der Antrag sofort als angenommen.
-
-Weitere Abstimmungsregeln (Sperrminorität, Pflichtangebot) halte ich für den
-Anfang für unnötig.
+- **Abstimmung:** Die App stellt einen Antrag, die Aktionäre tippen Ja oder Nein.
+  Hält der CEO selbst > 50 %, gilt der Antrag sofort als angenommen.
+- Weitere Abstimmungsregeln (Sperrminorität, Pflichtangebot) halte ich für den
+  Anfang für unnötig.
 
 <a id="k-02"></a>
 ### K-02 – Insidergeschäfte 🟡
@@ -396,11 +498,14 @@ Gegen Exploit X2 (Selbstbedienung).
 - Für alle anderen Firmengeschäfte gilt das allgemeine Band von 50 %–200 %.
 
 <a id="k-03"></a>
-### K-03 – Aktien bei Spielerbankrott 🟡
+### K-03 – Aktien bei Spielerbankrott 🔴 ⬜
+*Durch G-05 (Ende durch Pleite) wichtiger geworden, daher jetzt 🔴.*
 - **Bankrott gegenüber einem Spieler:** Wie alles andere gehen die Aktien an den
   Gläubiger.
-- **Bankrott gegenüber der Bank:** Die Aktien gehen zurück in die
-  **Emissionsreserve** der jeweiligen Firma, die sie wieder verkaufen kann.
+- **Bankrott gegenüber der Bank:** Die Aktien gehen in den **Bankbestand** (A-06),
+  den die Bank zum Kurs weiterverkauft.
+  *(Geändert: Ursprünglich hatte ich die Emissionsreserve vorgeschlagen. Aus dem in
+  A-06 beschriebenen Grund wäre das aber ein Geschenk an die Firma.)*
 - **Alternative:** Versteigerung unter den übrigen Spielern. Spannender, aber eine
   zusätzliche Mechanik.
 
@@ -543,7 +648,9 @@ Firmen können nie ins Minus gehen. Kann eine Firma eine Pflichtzahlung
    So entstehen keine versteckten Schulden.
 2. Der CEO wählt **Notverkäufe**: Projekte abreißen (50 %), Gebäude an die Bank
    (50 %, Monopoly-Regel), Straßen an die Bank (Hypothekenwert; die Straße wird
-   wieder frei), Reserve-Aktien verkaufen, oder ein Aktionär leistet einen Zuschuss.
+   wieder frei), Aktien anderer Firmen an die Bank (50 % des Kurses, A-06),
+   Reserve-Aktien verkaufen, oder ein Aktionär leistet einen Zuschuss.
+   In dieser Lage braucht der CEO keine Zustimmung (K-01).
 3. Handelt der CEO nicht, führt die Bank die Notverkäufe in fester Reihenfolge aus.
 4. Reicht alles nicht: **Insolvenz**. Alles wird verwertet, die Bank erhält, was da
    ist, die Aktien werden wertlos und die Firma wird aufgelöst. Straßen gehen an
@@ -577,10 +684,16 @@ aller Firmen. Beim Quartalsabschluss kann sie sich um eine Stufe ändern
   öffnet, ist sofort wieder drin.
 
 <a id="s-02"></a>
-### S-02 – Bank als Mitspieler 🔴
-**Frage:** Ist der Banker ein Nicht-Spieler (Spielleiter), oder spielt er mit?
+### S-02 – Bank als Mitspieler 🔴 ✅
+**Entschieden:** Die Bank ist vorerst ein **Spielleiter**, der nicht mitspielt.
+Das Vier-Augen-Prinzip entfällt damit zunächst. Das Datenmodell trennt Bank-Login
+und Spieler trotzdem von Anfang an, damit „Banker spielt mit“ später ohne Umbau
+nachrüstbar ist. Bank-Aktionen bleiben für alle im Verlauf sichtbar.
 
-**Empfehlung:** Die Bank ist eine **Rolle**, kein Wirtschaftsteilnehmer. Spielt der
+**Ursprüngliche Frage:** Ist der Banker ein Nicht-Spieler (Spielleiter), oder
+spielt er mit?
+
+**Damalige Empfehlung:** Die Bank ist eine **Rolle**, kein Wirtschaftsteilnehmer. Spielt der
 Banker mit, hat er **zwei getrennte Identitäten** (Bank-Login + Spieler).
 - Jede Bank-Aktion ist für **alle** im Verlauf sichtbar.
 - Buchungen der Bank auf das **eigene** Spielerkonto (Korrektur, Auszahlung …)

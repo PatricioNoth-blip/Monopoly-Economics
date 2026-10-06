@@ -11,6 +11,8 @@ nicht zum Projekt.
 - `docs/02-entscheidungen.md`: offene und getroffene Entscheidungen (IDs wie `A-02`).
   Wird eine Entscheidung getroffen, Status und Text dort aktualisieren.
 - `docs/03-architektur.md`: technische Architektur.
+- `docs/04-regelwerk.md`: konsolidiertes Regelwerk (✅ entschieden / 💡 Vorschlag).
+  Die Engine setzt nur ✅-Regeln um. Mit `02-entscheidungen.md` synchron halten.
 
 ## Zusammenarbeit
 - Dokumentation und Kommunikation auf Deutsch; Code-Bezeichner auf Englisch.
