@@ -1,6 +1,6 @@
 # 03 – Technische Architektur (Vorschlag)
 
-> Status: **Vorschlag, noch nicht freigegeben.** Code entsteht erst nach der Freigabe.
+> Status: **Freigegeben.** Änderungen an der Architektur nur nach Absprache.
 
 ## 1. Kurzfassung
 
@@ -294,7 +294,7 @@ Schnellbuchung über einen Ziffernblock (+100, +500 …) und Spielsteuerung
 - **Später:** eine **Tischansicht** für TV oder iPad in der Tischmitte
   (Börsenticker, Quartalsbericht, Konjunktur).
 
-Das ausführliche UI-Konzept folgt als eigener Schritt (`05-ui-konzept.md`).
+Das ausführliche UI-Konzept steht in [`05-ui-konzept.md`](05-ui-konzept.md).
 
 ---
 
@@ -347,7 +347,7 @@ Paketverwaltung: pnpm-Workspaces (ein Repository, mehrere Pakete).
 | Etappe | Inhalt | Ergebnis |
 |---|---|---|
 | **0** | Konzept, Analyse, Architektur | ✅ dieses Dokument |
-| **1** | Entscheidungen klären, Regelwerk v0.1, `board.json` | Freigegebene Regeln |
+| **1** | Entscheidungen klären, Regelwerk v0.1, UI-Konzept, `board.json` | Freigegebene Regeln (Kern ✅, Kartendaten fehlen) |
 | **2** | Engine + Tests + erste Simulation (noch ohne Oberfläche) | Regeln rechnen nachweislich korrekt |
 | **3** | **Technischer Durchstich:** Lobby, Beitritt, Bank, Konten, Ein-/Auszahlung, Überweisung, Verlauf, Echtzeit | Mehrere Handys sehen live dasselbe |
 | **4** | Wirtschaft: Grundbuch, Gründung, Aktien, Bewertung, Firmenmiete, Bauen, Dividenden, Quartal | Spielbare Kernversion |

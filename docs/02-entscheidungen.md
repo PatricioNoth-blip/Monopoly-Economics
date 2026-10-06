@@ -20,44 +20,44 @@
 | ID | Thema | Prio | Status | Entscheidung bzw. Empfehlung (kurz) |
 |---|---|---|---|---|
 | [G-01](#g-01) | Spielausgabe & Kartendaten | 🔴 | ✅❓ | Mega Black Edition, Startgeld 1.500 M, Los 200 M (beides bar); Kartendaten fehlen noch |
-| [G-02](#g-02) | Was läuft über die App, was bleibt physisch? | 🔴 | ⬜ | Grundbuch in der App; Firmenmiete digital, Rest hybrid |
+| [G-02](#g-02) | Was läuft über die App, was bleibt physisch? | 🔴 | ✅ | Grundbuch in der App; Firmenmiete digital, Rest hybrid |
 | [G-03](#g-03) | Bargeld & Gesamtvermögen | 🟢 | ⬜ | Vermögen „ohne Bargeld“ anzeigen (durch G-05 weniger wichtig) |
 | [G-04](#g-04) | Takt der Wirtschaft | 🔴 | ✅ | Quartal endet, wenn der Startspieler über Los zieht |
 | [G-05](#g-05) | Spielende & Wertung | 🟡 | ✅ | Klassisch: Die Partie endet durch Pleite |
 | [G-06](#g-06) | Sichtbarkeit von Kontoständen | 🟡 | ⬜ | Alles öffentlich |
-| [G-07](#g-07) | Digitales Startguthaben | 🟡 | ⬜ | 0 M; das Startgeld ist komplett Bargeld |
+| [G-07](#g-07) | Digitales Startguthaben | 🟡 | ✅ | 0 M; das Startgeld ist komplett Bargeld |
 | [U-01](#u-01) | Gründungsvoraussetzung | 🔴 | ✅ | Vollständige Farbgruppe wird in die Firma eingebracht |
-| [U-02](#u-02) | Gründungskosten & Startkapital | 🔴 | ✅❓ | Gebühr 1.000 M an die Bank, Startkapital 1.500 M in die Firma |
+| [U-02](#u-02) | Gründungskosten & Startkapital | 🔴 | ✅ | Gebühr 1.000 M an die Bank, Startkapital mind. 1.500 M in die Firma |
 | [U-03](#u-03) | Hypotheken | 🟡 | ⬜ | Firmen beleihen nie; Straßen müssen hypothekenfrei sein |
 | [U-04](#u-04) | Bauen & Straßenerwerb durch Firmen | 🟡 | ⬜ | Bauen zwischen den Zügen; Straßen nur per Handel (+ ggf. Auktion) |
 | [U-05](#u-05) | Mehrere Firmen / Zuschüsse | 🟢 | ⬜ | Unbegrenzt; Zuschüsse erlaubt |
 | [A-01](#a-01) | Aktienanzahl | 🔴 | ✅ | 100 Aktien je Firma (1 Aktie = 1 %) |
 | [A-02](#a-02) | Emissionsreserve | 🔴 | ✅ | Gründer ≥ 51 Aktien, Rest verkauft die Firma zum Kurs |
-| [A-03](#a-03) | Kursbildung | 🔴 | ⬜ | Kurs = Wert / umlaufende Aktien, unabhängig von Handelspreisen |
+| [A-03](#a-03) | Kursbildung | 🔴 | ✅ | Kurs = Wert / umlaufende Aktien, unabhängig von Handelspreisen |
 | [A-04](#a-04) | Aktienhandel zwischen Spielern | 🟡 | ⬜ | Marktplatz-Angebote + Handelsangebote, Preisband 50–200 % |
-| [A-05](#a-05) | Bank als Marktmacher | 🟡 | ⬜ | Nein, mit Ausnahme der Zahlungsnot (A-06) |
-| [A-06](#a-06) | Notverkauf von Aktien an die Bank | 🔴 | ⬜ | Nur in Zahlungsnot, zu 50 % des Kurses, Aktien gehen in den Bankbestand |
-| [B-01](#b-01) | Substanzwert | 🔴 | ⬜ | Kasse + Straßen + Gebäude + Projekte + Beteiligungen |
-| [B-02](#b-02) | Ertragswert | 🔴 | ⬜ | Ertragskraft/Quartal × 2 × Konjunktur, festgestellt je Quartal |
+| [A-05](#a-05) | Bank als Marktmacher | 🟡 | ✅ | Nein, mit Ausnahme der Zahlungsnot (A-06) |
+| [A-06](#a-06) | Notverkauf von Aktien an die Bank | 🔴 | ✅ | Nur in Zahlungsnot, zu 50 % des Kurses, Aktien gehen in den Bankbestand |
+| [B-01](#b-01) | Substanzwert | 🔴 | ✅ | Kasse + Straßen + Gebäude + Projekte + Beteiligungen |
+| [B-02](#b-02) | Ertragswert | 🔴 | ✅ | Ertragskraft/Quartal × 2 × Konjunktur, festgestellt je Quartal |
 | [D-01](#d-01) | Dividendenregel | 🟡 | ⬜ | Nur aus Gewinn, Kasse bleibt ≥ Reserve, 1× pro Quartal |
-| [K-01](#k-01) | CEO & Kontrolle | 🔴 | ✅❓ | CEO = größter Aktionär; Verkauf nur mit > 50 %, außer zur Abwendung der Pleite |
+| [K-01](#k-01) | CEO & Kontrolle | 🔴 | ✅ | CEO = größter Aktionär; Verkauf nur mit > 50 %, außer zur Abwendung der Pleite |
 | [K-02](#k-02) | Insidergeschäfte | 🟡 | ⬜ | Preisband 80–120 % oder Zustimmung der übrigen Aktionäre |
-| [K-03](#k-03) | Aktien bei Spielerbankrott | 🔴 | ⬜ | An den Gläubiger; ist das die Bank, gehen sie in den Bankbestand (A-06) |
+| [K-03](#k-03) | Aktien bei Spielerbankrott | 🔴 | ✅ | An den Gläubiger; ist das die Bank, gehen sie in den Bankbestand (A-06) |
 | [K-04](#k-04) | Beteiligungen zwischen Firmen | 🟢 | ⬜ | Erlaubt, azyklisch, aber erst Version 2 |
-| [P-01](#p-01) | Projekt-Slots | 🟡 | Hotel = 1 Slot, Wolkenkratzer = 3 Slots |
-| [P-02](#p-02) | Projektkatalog | 🟡 | 6 Projekte in zwei Familien (Miete / fester Ertrag) |
-| [P-03](#p-03) | Bauzeit, Abriss, Verkauf | 🟡 | Fertig zum nächsten Quartal; Abriss bringt 50 % |
-| [P-04](#p-04) | Mietdeckel | 🟢 | Erst kein Deckel, aber als Parameter vorbereiten |
-| [R-01](#r-01) | Ereignisse auslösen | 🟡 | Beim Quartalsabschluss, physischer Würfel je Firma |
-| [R-02](#r-02) | Risikostufe | 🟡 | Aus Projekt-Risikopunkten; bestimmt die Unglückszahlen |
-| [R-03](#r-03) | Ereigniskatalog | 🟢 | Klein starten (6–8 Karten), später erweitern |
-| [R-04](#r-04) | Zahlungsunfähigkeit & Insolvenz | 🟡 | Notverkaufsmodus, sonst Auflösung |
-| [R-05](#r-05) | Konjunktur | 🟢 | 5 Stufen, wirkt auf den Ertragswert |
-| [S-01](#s-01) | Beitritt | 🔴 | Code + Nickname + Freigabe durch die Bank, QR-Code |
-| [S-02](#s-02) | Bank als Mitspieler | 🔴 | Getrennte Identitäten, Vier-Augen-Prinzip |
-| [S-03](#s-03) | Gerätewechsel | 🟡 | Wiederbeitritts-Code über die Bank |
-| [S-04](#s-04) | Korrekturen | 🟡 | Nur Gegenbuchungen mit Begründung, nie Löschen |
-| [S-05](#s-05) | Accounts | 🟢 | Bank mit Login; Spieler-Accounts später optional |
+| [P-01](#p-01) | Projekt-Slots | 🟡 | ⬜ | Hotel = 1 Slot, Wolkenkratzer = 3 Slots |
+| [P-02](#p-02) | Projektkatalog | 🟡 | ⬜ | 6 Projekte in zwei Familien (Miete / fester Ertrag) |
+| [P-03](#p-03) | Bauzeit, Abriss, Verkauf | 🟡 | ⬜ | Fertig zum nächsten Quartal; Abriss bringt 50 % |
+| [P-04](#p-04) | Mietdeckel | 🟢 | ⬜ | Erst kein Deckel, aber als Parameter vorbereiten |
+| [R-01](#r-01) | Ereignisse auslösen | 🟡 | ⬜ | Beim Quartalsabschluss, physischer Würfel je Firma |
+| [R-02](#r-02) | Risikostufe | 🟡 | ⬜ | Aus Projekt-Risikopunkten; bestimmt die Unglückszahlen |
+| [R-03](#r-03) | Ereigniskatalog | 🟢 | ⬜ | Klein starten (6–8 Karten), später erweitern |
+| [R-04](#r-04) | Zahlungsunfähigkeit & Insolvenz | 🟡 | ⬜ | Notverkaufsmodus, sonst Auflösung |
+| [R-05](#r-05) | Konjunktur | 🟢 | ⬜ | 5 Stufen, wirkt auf den Ertragswert |
+| [S-01](#s-01) | Beitritt | 🔴 | ✅ | Code + Nickname + Freigabe durch die Bank, QR-Code |
+| [S-02](#s-02) | Bank als Mitspieler | 🔴 | ✅ | Bank ist Spielleiter und spielt (vorerst) nicht mit |
+| [S-03](#s-03) | Gerätewechsel | 🟡 | ⬜ | Wiederbeitritts-Code über die Bank |
+| [S-04](#s-04) | Korrekturen | 🟡 | ⬜ | Nur Gegenbuchungen mit Begründung, nie Löschen |
+| [S-05](#s-05) | Accounts | 🟢 | ⬜ | Bank mit Login; Spieler-Accounts später optional |
 
 ---
 
@@ -82,7 +82,9 @@ Werte von den Besitzrechtkarten (oder schickst Fotos). Die Spielregeln selbst
 bleiben die der Box; die App rechnet nur dort, wo Firmen im Spiel sind.
 
 <a id="g-02"></a>
-### G-02 – Was läuft über die App, was bleibt physisch? 🔴
+### G-02 – Was läuft über die App, was bleibt physisch? 🔴 ✅
+**Entschieden** wie vorgeschlagen.
+
 | Vorgang | Vorschlag |
 |---|---|
 | Würfeln, Ziehen, Karten | physisch |
@@ -169,7 +171,9 @@ Baukosten (verhindert Exploit X3).
 macht die Bank aber zum Informationsträger (siehe Fairness).
 
 <a id="g-07"></a>
-### G-07 – Digitales Startguthaben 🟡 ⬜
+### G-07 – Digitales Startguthaben 🟡 ✅
+**Entschieden** wie vorgeschlagen.
+
 *Neu, folgt aus G-01.*
 Das Startgeld von 1.500 M ist Bargeld. **Vorschlag:** Digitale Konten starten mit
 **0 M**. Digitales Geld entsteht nur durch Einzahlung, Firmenmiete, Dividenden und
@@ -199,14 +203,14 @@ die Firma außer Geld nichts. Die Gruppe ist der natürliche Kern des Unternehme
 „Versorger-AG“ aus beiden Werken.
 
 <a id="u-02"></a>
-### U-02 – Gründungskosten & Startkapital 🔴 ✅❓
+### U-02 – Gründungskosten & Startkapital 🔴 ✅
 **Entschieden:** feste Beträge für jede Farbgruppe:
 - **Gründungsgebühr** an die Bank: **1.000 M**
-- **Startkapital** in die Firmenkasse: **1.500 M**
+- **Startkapital** in die Firmenkasse: **mindestens 1.500 M**
 
-**Rückfrage:** Sind 1.500 M fest oder ein **Minimum**? Ich würde mehr erlauben:
-Wer mehr Kapital mitbringt, kann schneller Projekte bauen, und seine Aktien sind
-entsprechend mehr wert. Für die anderen Spieler ist das neutral.
+**Bestätigt:** 1.500 M sind ein **Minimum**, mehr Startkapital ist erlaubt. Wer
+mehr mitbringt, kann schneller Projekte bauen, und seine Aktien sind entsprechend
+mehr wert. Für die anderen Spieler ist das neutral.
 
 **Beispiel:** Eine unbebaute Gruppe mit zusammen 800 M Kaufpreis.
 - Der Gründer zahlt 2.500 M (1.000 M an die Bank, 1.500 M in die Firma) und
@@ -284,7 +288,9 @@ Aktien, Kurs = **100 M**. Niemand wurde verwässert, die Firma hat 1.000 M mehr
 Kapital.
 
 <a id="a-03"></a>
-### A-03 – Kursbildung 🔴
+### A-03 – Kursbildung 🔴 ✅
+**Entschieden** wie vorgeschlagen.
+
 **Kurs = Unternehmenswert / umlaufende Aktien**, auf ganze M gerundet.
 
 Der Kurs hängt **nicht** von Handelspreisen zwischen Spielern ab. Dadurch ist er
@@ -308,7 +314,9 @@ Zwei Wege, beide nur mit **digitalem** Geld:
 lässt Verhandlungsspielraum und verhindert verdeckte Geldgeschenke.
 
 <a id="a-05"></a>
-### A-05 – Bank als Marktmacher 🟡
+### A-05 – Bank als Marktmacher 🟡 ✅
+**Entschieden** wie vorgeschlagen, zusammen mit der Ausnahme A-06.
+
 **Frage:** Soll die Bank jederzeit Aktien zum Kurs ankaufen, damit man immer
 verkaufen kann?
 
@@ -321,7 +329,9 @@ Ausdrücklich **nicht** vorgesehen: Leerverkäufe, Optionen, Aktienrückkäufe (
 evtl. später).
 
 <a id="a-06"></a>
-### A-06 – Notverkauf von Aktien an die Bank 🔴 ⬜
+### A-06 – Notverkauf von Aktien an die Bank 🔴 ✅
+**Entschieden** wie vorgeschlagen.
+
 *Neu. Folgt aus G-05 (Ende durch Pleite) zusammen mit A-05 (keine Bank als
 Käufer).*
 
@@ -364,7 +374,9 @@ Aktienkurs       = Unternehmenswert / umlaufende Aktien
 ```
 
 <a id="b-01"></a>
-### B-01 – Substanzwert 🔴
+### B-01 – Substanzwert 🔴 ✅
+**Entschieden** wie vorgeschlagen.
+
 Was die Firma **jetzt besitzt**. Wird live berechnet.
 ```
 Substanzwert = Firmenkasse
@@ -382,7 +394,9 @@ jeder Bau den Kurs sofort senken. Das fühlt sich falsch an und bremst die
 Entwicklung.
 
 <a id="b-02"></a>
-### B-02 – Ertragswert 🔴
+### B-02 – Ertragswert 🔴 ✅
+**Entschieden** wie vorgeschlagen. Der Multiplikator 2 und der Faktor L sind Startwerte für die Simulation.
+
 Was die Firma **künftig voraussichtlich verdient**.
 
 ```
@@ -451,11 +465,11 @@ Reserve)“.
 ## K – Kontrolle & Konzern
 
 <a id="k-01"></a>
-### K-01 – CEO & Kontrolle 🔴 ✅❓
+### K-01 – CEO & Kontrolle 🔴 ✅
 **Entschieden:** wie vorgeschlagen, mit deiner Ergänzung: *„außer das Unternehmen
 wird verkauft oder es ist die einzige Möglichkeit, eine Pleite zu verhindern“*.
 
-**Meine Lesart (bitte bestätigen):**
+**Bestätigte Lesart:**
 - Den **Verkauf des Unternehmens** darf der CEO nicht allein beschließen. Dafür
   braucht es > 50 % der Stimmen.
 - **Ausnahme:** Ist der Verkauf die einzige Möglichkeit, eine Pleite abzuwenden,
@@ -464,7 +478,7 @@ wird verkauft oder es ist die einzige Möglichkeit, eine Pleite zu verhindern“
 **Was heißt „Unternehmen verkaufen“ in unserem Modell?** Seine **eigenen Aktien**
 darf jeder Aktionär jederzeit ohne Zustimmung verkaufen; das ist kein Verkauf
 *durch* das Unternehmen. Gemeint sein kann also nur, dass die Firma ihr Vermögen
-abgibt. Mein Vorschlag zur Abgrenzung:
+abgibt. Bestätigte Abgrenzung:
 
 | Entscheidung | Wer entscheidet |
 |---|---|
@@ -498,7 +512,9 @@ Gegen Exploit X2 (Selbstbedienung).
 - Für alle anderen Firmengeschäfte gilt das allgemeine Band von 50 %–200 %.
 
 <a id="k-03"></a>
-### K-03 – Aktien bei Spielerbankrott 🔴 ⬜
+### K-03 – Aktien bei Spielerbankrott 🔴 ✅
+**Entschieden** wie vorgeschlagen.
+
 *Durch G-05 (Ende durch Pleite) wichtiger geworden, daher jetzt 🔴.*
 - **Bankrott gegenüber einem Spieler:** Wie alles andere gehen die Aktien an den
   Gläubiger.
@@ -672,7 +688,9 @@ aller Firmen. Beim Quartalsabschluss kann sie sich um eine Stufe ändern
 ## S – System, Rollen & Sicherheit
 
 <a id="s-01"></a>
-### S-01 – Beitritt 🔴
+### S-01 – Beitritt 🔴 ✅
+**Entschieden** wie vorgeschlagen.
+
 - Die Bank erstellt eine Partie. Die App zeigt einen **6-stelligen Code** (ohne
   verwechselbare Zeichen wie 0/O, 1/I) und einen **QR-Code**.
 - Spieler geben Code + Nickname ein und warten in der **Lobby**. Die Bank sieht die

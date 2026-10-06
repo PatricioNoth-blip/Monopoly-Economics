@@ -1,4 +1,4 @@
-# 04 – Regelwerk v0.1 (Entwurf)
+# 04 – Regelwerk v0.1
 
 > So wird die Erweiterung gespielt, in Regelbuch-Form. Die Engine setzt später
 > genau diese Regeln um.
@@ -32,22 +32,22 @@ kann Firmengeld privat entnehmen.
 
 2.1 ✅ Jeder Spieler erhält **1.500 M Startgeld in bar**. *(G-01)*
 
-2.2 💡 Digitale Konten starten mit **0 M**. *(G-07)*
+2.2 ✅ Digitale Konten starten mit **0 M**. *(G-07)*
 
-2.3 💡 Spieler treten mit Game-Code + Nickname bei; die Bank gibt sie frei.
+2.3 ✅ Spieler treten mit Game-Code + Nickname bei; die Bank gibt sie frei.
 *(S-01)*
 
 ## 3. Bargeld und digitales Geld
 
 3.1 ✅ **Los-Geld (200 M)** wird bar ausgezahlt. *(G-01)*
 
-3.2 💡 Wie gewohnt bar laufen außerdem: Straßenkäufe von der Bank, Mieten auf
+3.2 ✅ Wie gewohnt bar laufen außerdem: Straßenkäufe von der Bank, Mieten auf
 **Privatstraßen**, Steuern, Ereignis- und Gemeinschaftskarten. *(G-02)*
 
 3.3 ✅ Ein- und Auszahlungen zwischen Bargeld und digitalem Konto führt die Bank
 durch.
 
-3.4 💡 **Grundbuch:** Wer eine Straße kauft, trägt das mit einem Tap in der App ein.
+3.4 ✅ **Grundbuch:** Wer eine Straße kauft, trägt das mit einem Tap in der App ein.
 Alle sehen es, und die Bank kann es korrigieren. *(G-02)*
 
 ## 4. Unternehmen gründen
@@ -58,10 +58,10 @@ Alle sehen es, und die Bank kann es korrigieren. *(G-02)*
 4.2 ✅ Der Gründer **bringt die Farbgruppe samt Gebäuden in die Firma ein**. Die
 Besitzrechtkarten kommen auf die Firmenablage am Tisch. *(U-01)*
 
-4.3 ✅❓ Der Gründer zahlt **1.000 M Gründungsgebühr** an die Bank und **1.500 M
-Startkapital** in die Firmenkasse. *(U-02; offen: ob 1.500 M ein Minimum ist)*
+4.3 ✅ Der Gründer zahlt **1.000 M Gründungsgebühr** an die Bank und **mindestens
+1.500 M Startkapital** in die Firmenkasse. *(U-02)*
 
-4.4 💡 Die Gründung lässt sich direkt mit Bargeld bezahlen: Die Bank bestätigt den
+4.4 ✅ Die Gründung lässt sich direkt mit Bargeld bezahlen: Die Bank bestätigt den
 Erhalt, und die App bucht alles in einem Zug. *(G-07)*
 
 4.5 ✅ Jede Firma hat genau **100 Aktien**. Es werden nie neue ausgegeben. *(A-01)*
@@ -82,7 +82,7 @@ werden. Jeder Spieler kann sie zum aktuellen Kurs kaufen, und der Erlös geht in
 die **Firmenkasse**. Reserve-Aktien haben kein Stimmrecht und erhalten keine
 Dividende. *(A-02)*
 
-5.3 💡 **Kurs = Unternehmenswert ÷ umlaufende Aktien**, gerundet auf ganze M. Die
+5.3 ✅ **Kurs = Unternehmenswert ÷ umlaufende Aktien**, gerundet auf ganze M. Die
 Reserve zählt nicht als umlaufend. Handelspreise zwischen Spielern beeinflussen
 den Kurs nicht. *(A-03)*
 
@@ -92,20 +92,20 @@ den Kurs nicht. *(A-03)*
 
 Der Preis muss zwischen 50 % und 200 % des Kurses liegen. *(A-04)*
 
-5.5 💡 **Notverkauf an die Bank:** Nur in Zahlungsnot dürfen Aktien zu 50 % des
+5.5 ✅ **Notverkauf an die Bank:** Nur in Zahlungsnot dürfen Aktien zu 50 % des
 Kurses an die Bank verkauft werden. Sie kommen in den Bankbestand, den die Bank
 zum vollen Kurs weiterverkauft. *(A-06)*
 
-## 6. Unternehmenswert 💡
+## 6. Unternehmenswert
 
-6.1 💡 **Unternehmenswert = Substanzwert + Ertragswert** *(B-01, B-02)*
+6.1 ✅ **Unternehmenswert = Substanzwert + Ertragswert** *(B-01, B-02)*
 - **Substanzwert** (immer aktuell): Kasse + Straßen zum Kaufpreis + Gebäude zum
   Baupreis + Projekte zum Buchwert + Beteiligungen zum Kurs.
 - **Ertragswert** (wird je Quartal festgestellt): erwarteter Ertrag pro Quartal × 2
   × Konjunktur. Verbesserungen zählen ab dem nächsten Quartalsabschluss,
   Verschlechterungen sofort.
 
-6.2 💡 Eine neu gegründete Firma hat bis zu ihrem ersten Quartalsabschluss einen
+6.2 ✅ Eine neu gegründete Firma hat bis zu ihrem ersten Quartalsabschluss einen
 Ertragswert von 0. *(B-02)*
 
 6.3 ✅ Jede Wert- und Kursänderung wird in der App aufgeschlüsselt.
@@ -118,12 +118,11 @@ Wer mehr Aktien besitzt als der CEO, wird automatisch neuer CEO. *(K-01)*
 7.2 ✅ Der CEO führt das **Tagesgeschäft allein**: Er baut, verwaltet Projekte,
 bietet Reserve-Aktien an und handelt mit Aktien anderer Firmen. *(K-01)*
 
-7.3 ✅❓ Für den **Verkauf von Straßen** der Firma und ihre **Auflösung** braucht der
+7.3 ✅ Für den **Verkauf von Straßen** der Firma und ihre **Auflösung** braucht der
 CEO > 50 % der Stimmen. **Ausnahme:** Ist es die einzige Möglichkeit, eine Pleite
-abzuwenden, entscheidet er allein. *(K-01; meine Lesart deiner Antwort, Bestätigung
-offen)*
+abzuwenden, entscheidet er allein. *(K-01)*
 
-7.4 💡 Stimmen haben nur Aktien in Spieler- oder Firmenhand, nicht die Reserve und
+7.4 ✅ Stimmen haben nur Aktien in Spieler- oder Firmenhand, nicht die Reserve und
 nicht der Bankbestand. *(K-01, A-06)*
 
 7.5 💡 Für Geschäfte zwischen der Firma und ihren Insidern (CEO, Aktionäre ab
@@ -135,7 +134,7 @@ Aktionäre zustimmen. *(K-02)*
 8.1 ✅ Wer auf einer Firmenstraße landet, zahlt die Miete **persönlich**. Sie geht
 in die Firmenkasse.
 
-8.2 💡 Firmenmiete wird **nur digital** gezahlt: Jemand stellt die Forderung, die
+8.2 ✅ Firmenmiete wird **nur digital** gezahlt: Jemand stellt die Forderung, die
 App berechnet den Betrag mit Aufschlüsselung, der Zahler bestätigt. Bei Streit
 entscheidet die Bank. *(G-02)*
 
@@ -165,11 +164,11 @@ Ertragswert → Projekte in Betrieb nehmen → Quartalsbericht. *(G-04)*
 
 11.1 ✅ Die Partie endet, wenn **alle bis auf einen Spieler pleite** sind. *(G-05)*
 
-11.2 💡 Ein Spieler ist pleite, wenn er eine Zahlung auch nach Verwertung aller
+11.2 ✅ Ein Spieler ist pleite, wenn er eine Zahlung auch nach Verwertung aller
 Mittel nicht leisten kann. Dazu zählen Bargeld, digitales Geld, Gebäude (50 %),
 Hypotheken und der Aktien-Notverkauf. *(G-05, A-06)*
 
-11.3 💡 Ist ein Spieler gegenüber einem Mitspieler pleite, bekommt der Gläubiger
+11.3 ✅ Ist ein Spieler gegenüber einem Mitspieler pleite, bekommt der Gläubiger
 alles, auch digitales Geld und Aktien. Gegenüber der Bank gehen die Aktien in den
 Bankbestand. *(K-03)*
 

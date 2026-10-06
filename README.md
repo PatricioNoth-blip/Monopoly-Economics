@@ -11,9 +11,9 @@ kompliziert wäre, und zeigt allen Geräten am Tisch in Echtzeit denselben Stand
 
 ## Status
 
-**Phase 1 – Regelwerk.** Es gibt noch keinen Anwendungscode. Die ersten
-Kernentscheidungen sind getroffen; Regeln und Architektur werden weiter gemeinsam
-festgelegt.
+**Phase 1 – Regelwerk & UI-Konzept.** Es gibt noch keinen Anwendungscode. Die
+Kernregeln und die Architektur sind entschieden; als Nächstes folgt der
+Rechenkern (Engine).
 
 | Dokument | Inhalt |
 |---|---|
@@ -21,7 +21,8 @@ festgelegt.
 | [`docs/01-analyse.md`](docs/01-analyse.md) | Konzeptanalyse: Widersprüche, Exploits, Balancing |
 | [`docs/02-entscheidungen.md`](docs/02-entscheidungen.md) | Offene Designentscheidungen mit Empfehlungen |
 | [`docs/03-architektur.md`](docs/03-architektur.md) | Technische Architektur, Datenmodell, Etappenplan |
-| [`docs/04-regelwerk.md`](docs/04-regelwerk.md) | Regelwerk v0.1 (Entwurf): entschiedene Regeln + Vorschläge |
+| [`docs/04-regelwerk.md`](docs/04-regelwerk.md) | Regelwerk v0.1: entschiedene Regeln + offene Vorschläge |
+| [`docs/05-ui-konzept.md`](docs/05-ui-konzept.md) | UI-Konzept: Navigation, Abläufe, Wireframes für Smartphone und iPad |
 
 ## Geplanter Technik-Stack (Vorschlag)
 
