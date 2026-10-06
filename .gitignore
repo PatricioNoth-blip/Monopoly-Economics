@@ -1,0 +1,32 @@
+# Abhängigkeiten
+node_modules/
+.pnpm-store/
+
+# Build-Ausgaben
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.vite/
+
+# Umgebungsvariablen / Geheimnisse
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Tests
+playwright-report/
+test-results/
+
+# Betriebssystem & Editoren
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
